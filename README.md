@@ -20,6 +20,7 @@ onstage-server, im-server 部署在服务器B IP: zz.zz.zz.zz
 
 ### 配置如下
 #### master.json
+master.json 里面ip和port也相同
 
 {
 
@@ -65,5 +66,4 @@ onstage-server, im-server 部署在服务器B IP: zz.zz.zz.zz
 同理,也可以将connector-server 两台服务器都部署
 
 ###启动说明
-
-只在master.json 所在的服务器启动(pomelo start)即可.
+只在master.json里配置的ip服务器启动(pomelo start)即可.
