@@ -1,0 +1,306 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>pomelo · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="First.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    pomelo
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="First.html">
+            
+                <a href="First.html">
+            
+                    
+                    客户端与服务端通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="Secend.html">
+            
+                <a href="Secend.html">
+            
+                    
+                    请求与响应
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="Third.html">
+            
+                <a href="Third.html">
+            
+                    
+                    rpc调用与channel广播
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >pomelo</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="pomelo&#x5B66;&#x4E60;&#x603B;&#x7ED3;">pomelo&#x5B66;&#x4E60;&#x603B;&#x7ED3;</h3>
+<h4 id="&#x7B80;&#x8FF0;pomelo&#x7684;&#x4F7F;&#x7528;">&#x7B80;&#x8FF0;pomelo&#x7684;&#x4F7F;&#x7528;</h4>
+<h5 id="1-&#x521B;&#x5EFA;&#x4E00;&#x4E2A;pomelo&#x9879;&#x76EE;">1. &#x521B;&#x5EFA;&#x4E00;&#x4E2A;pomelo&#x9879;&#x76EE;</h5>
+<p>pomelo &#x5B89;&#x88C5;&#x597D;&#xFF0C;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;demo&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x4EE5;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;helloworld&#x9879;&#x76EE;&#x4E3A;&#x4F8B;&#xFF1A;</p>
+<pre><code>pommelo init hellworld
+</code></pre><p>&#x8FD9;&#x6837;&#x4E00;&#x4E2A;helloworld&#x9879;&#x76EE;&#x5C31;&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x4E86;&#x3002;</p>
+<h5 id="2-pomelo&#x9879;&#x76EE;&#x542F;&#x52A8;">2. pomelo&#x9879;&#x76EE;&#x542F;&#x52A8;</h5>
+<p>poemlo&#x9879;&#x76EE;&#x5206;&#x4E3A;game-server(&#x670D;&#x52A1;&#x7AEF;)&#x548C;web-server(&#x5BA2;&#x6237;&#x7AEF;)&#x4E24;&#x90E8;&#x5206;&#x3002;</p>
+<p>&#x670D;&#x52A1;&#x7AEF;&#x542F;&#x52A8;&#xFF1A;  &#x5728;game-server&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;</p>
+<pre><code>pomelo start  &#x6216;&#x8005; node app.js
+</code></pre><p>&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#x6267;&#x884C;</p>
+<pre><code>pomelo start -D &#x6216;&#x8005; node app.js &amp; 
+</code></pre><p>&#x5BA2;&#x6237;&#x7AEF;&#x542F;&#x52A8;&#xFF1A; &#x5728;web-server&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;</p>
+<pre><code>node app.js
+</code></pre><p>&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#x6267;&#x884C;</p>
+<pre><code>node app.js &amp; 
+</code></pre><h5 id="3-pomelo&#x505C;&#x6B62;&#x8FD0;&#x884C;">3. pomelo&#x505C;&#x6B62;&#x8FD0;&#x884C;</h5>
+<p>&#x670D;&#x52A1;&#x7AEF;&#x505C;&#x6B62;&#x8FD0;&#x884C;&#xFF1A; &#x4E0D;&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x76F4;&#x63A5;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code>Ctrl+c
+</code></pre><p>&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x9700;&#x5728;game-server&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code>pomelo stop
+</code></pre><p>&#x5BA2;&#x6237;&#x7AEF;&#x505C;&#x6B62;&#x8FD0;&#x884C;&#xFF1A;  &#x4E0D;&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x76F4;&#x63A5;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code>Ctrl+c
+</code></pre><p>&#x5728;&#x540E;&#x53F0;&#x8FD0;&#x884C;&#x65F6;&#xFF0C;&#x9700;&#x67E5;&#x8BE2;&#x5BF9;&#x5E94;&#x7684;&#x8FDB;&#x7A0B;&#x53F7;&#xFF0C;&#x7136;&#x540E;&#x6740;&#x6B7B;&#x8BE5;&#x8FDB;&#x7A0B;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x542F;&#x52A8;&#x7684;&#x662F;3001&#x7AEF;&#x53E3;&#xFF0C;&#x67E5;&#x8BE2;&#x8FDB;&#x7A0B;&#x53F7;&#xFF1A;</p>
+<pre><code>netstat -anp |grep 3001
+</code></pre><p><img src="images/webserver.png" alt="">
+&#x5982;&#x56FE;&#xFF0C;&#x67E5;&#x8BE2;&#x51FA;&#x8FDB;&#x7A0B;&#x53F7;&#x4E3A;5654&#xFF0C;&#x7136;&#x540E;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code>kill 5654
+</code></pre><p>&#x6740;&#x6B7B;&#x8BE5;&#x8FDB;&#x7A0B;</p>
+<h5 id="4-pomelo&#x67E5;&#x8BE2;&#x542F;&#x52A8;&#x7684;&#x8FDB;&#x7A0B;">4. pomelo&#x67E5;&#x8BE2;&#x542F;&#x52A8;&#x7684;&#x8FDB;&#x7A0B;</h5>
+<p>&#x5728;game-server&#x76EE;&#x5F55;&#x4E0B;&#x6267;&#x884C;&#xFF1A;</p>
+<pre><code>pomelo list
+</code></pre><p>&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p>
+<p><img src="images/list.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="First.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 客户端与服务端通信">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"pomelo","level":"1.1","depth":1,"next":{"title":"客户端与服务端通信","level":"1.1.1","depth":2,"path":"First.md","ref":"First.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"README.md","mtime":"2017-09-14T07:06:32.069Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-14T03:15:16.473Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
